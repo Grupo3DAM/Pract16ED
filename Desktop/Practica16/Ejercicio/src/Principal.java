@@ -33,8 +33,8 @@ public class Principal {
 		lista.add(emp1);
 		lista.add(cad1);
 		
-		for(Empleados l : lista) {
-			l.mostrarEmpleado();
+		for(Empleados k : lista) {
+			k.mostrarEmpleado();
 		}
 
 	}
