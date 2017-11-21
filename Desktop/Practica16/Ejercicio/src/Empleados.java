@@ -1,4 +1,5 @@
 /*
+ * Clase Empleados con los datos
  * Nombre, Apellidos, Dirección, Nacionalidad, Teléfono, Número de hijos, Sexo, y 
 si está o no Casado. 
  */
