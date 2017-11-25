@@ -5,11 +5,11 @@ si está o no Casado.
  */
 public class Empleados {
 	private String nombre;
-	private String apellidos;
+	private String apellidos; // Este campo puede tener uno o dos apellidos
 	private String direccion;
 	private String nacionalidad;
 	private String telefono;
-	private byte numeroHijos;
+	private byte numeroHijos; 
 	private char sexo;
 	private boolean estaCasado;
 	
