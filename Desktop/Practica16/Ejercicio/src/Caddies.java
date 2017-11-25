@@ -1,11 +1,11 @@
-//Los Caddies incorporan adem·s la Edad, Experiencia en golf, su Peso, y su Estatura.
+//Los Caddies incorporan adem√°s la Edad, Experiencia en golf, su Peso, y su Estatura.
 public class Caddies extends Empleados {
-	
+	//Aqui se definen las variables simples.
 	private short edad;
 	private String experiencia;
 	private float peso;
 	private float estatura;
-	
+	//A continuacion se crean los constructores. 
 	public Caddies(short edad, String experiencia, float peso, float estatura) {
 		super();
 		this.edad = edad;
@@ -23,7 +23,7 @@ public class Caddies extends Empleados {
 		super(nombre, direccion, nacionalidad, telefono, numeroHijos, sexo, estaCasado);
 		// TODO Auto-generated constructor stub
 	}
-
+	//Aqui se definen los getters y los setters.
 	public short getEdad() {
 		return edad;
 	}
