@@ -1,4 +1,4 @@
-//si tienen estudios de botánica, y si saben o no arreglar desperfectos en las tuberías de riego.
+//si tienen estudios de botï¿½nica, y si saben o no arreglar desperfectos en las tuberï¿½as de riego.
 public class Jardineros extends Empleados {
 	
 	private boolean estudiosBotanica;
@@ -16,9 +16,9 @@ public class Jardineros extends Empleados {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Jardineros(String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos,
+	public Jardineros(int codEmpleado, String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos,
 			char sexo, boolean estaCasado) {
-		super(nombre, direccion, nacionalidad, telefono, numeroHijos, sexo, estaCasado);
+		super( codEmpleado, nombre, direccion, nacionalidad, telefono, numeroHijos, sexo, estaCasado);
 		// TODO Auto-generated constructor stub
 	}
 

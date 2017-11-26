@@ -1,9 +1,11 @@
 /*
  * Clase Empleados con los datos
- * Nombre, Apellidos, Dirección, Nacionalidad, Teléfono, Número de hijos, Sexo, y 
-si está o no Casado. 
+ * Nombre, Apellidos, Direcciï¿½n, Nacionalidad, Telï¿½fono, Nï¿½mero de hijos, Sexo, y 
+si estï¿½ o no Casado. 
  */
 public class Empleados {
+	
+	private int codEmpleado;	// tambiÃ©n se aÃ±adirÃ¡ un nÃºmero que se asignarÃ¡ a cada empleado	que tambiÃ©n es necesario ser visualizado en pantalla
 	private String nombre;
 	private String apellidos; // Este campo puede tener uno o dos apellidos
 	private String direccion;
@@ -18,9 +20,10 @@ public class Empleados {
 		super();
 		
 	}
-	public Empleados(String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos, char sexo,
+	public Empleados(int codEmpleado, String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos, char sexo,
 			boolean estaCasado) {
 		super();
+		this.codEmpleado = codEmpleado;
 		this.nombre = nombre;
 		this.direccion = direccion;
 		this.nacionalidad = nacionalidad;
@@ -29,6 +32,15 @@ public class Empleados {
 		this.sexo = sexo;
 		this.estaCasado = estaCasado;
 	}
+	
+	public int getCodEmpleado() {
+		return codEmpleado;
+	}
+	
+	public void setCodEmpleado(int codEmpleado) {
+		this.codEmpleado = codEmpleado;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -46,6 +58,7 @@ public class Empleados {
 	}
 	public void setNacionalidad(String nacionalidad) {
 		this.nacionalidad = nacionalidad;
+					
 	}
 	public String getTelefono() {
 		return telefono;
@@ -73,7 +86,7 @@ public class Empleados {
 	}
 	
 	public void mostrarEmpleado() {
-		System.out.println("Apellidos:" + apellidos + " Nacionalidad: "+ nacionalidad);
+		System.out.println("Cod. Empleado " + codEmpleado+ "  " + "Apellidos: " + apellidos + " Nacionalidad: "+ nacionalidad);
 	}
 	public String getApellidos() {
 		return apellidos;

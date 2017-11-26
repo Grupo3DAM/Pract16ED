@@ -18,9 +18,9 @@ public class Caddies extends Empleados {
 		super();
 	}
 
-	public Caddies(String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos, char sexo,
+	public Caddies(int codEmpleado, String nombre, String direccion, String nacionalidad, String telefono, byte numeroHijos, char sexo,
 			boolean estaCasado) {
-		super(nombre, direccion, nacionalidad, telefono, numeroHijos, sexo, estaCasado);
+		super(codEmpleado, nombre, direccion, nacionalidad, telefono, numeroHijos, sexo, estaCasado);
 		// TODO Auto-generated constructor stub
 	}
 	
